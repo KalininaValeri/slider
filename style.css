@@ -22,7 +22,6 @@ body {
 
 .menu_block_item {
     float: left;
-    padding: 20px 26px;
     border-right: solid 1px #385d6d;
 }
 
@@ -36,19 +35,25 @@ body {
     display: block;
 }
 
-.menu_block_item a {
-    text-decoration: none;
-    color: white;
-    font-size: 15px;
-    font-family: "Myriad Pro", "Arial", sans-serif;
-}
-
 .menu_block_item.active {
     background: rgba(157, 193, 210, 0.28);
 }
 
-.menu_block_item:hover {
-    text-decoration: underline;
+.menu_block_item a:hover {
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.menu_block_item a {
+    display: inline-block;
+    padding: 20px 26px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: "Myriad Pro", "Arial", sans-serif;
+}
+
+.container_slider {
+    
 }
 
 .slider {
