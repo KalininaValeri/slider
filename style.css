@@ -3,6 +3,11 @@ body {
     margin: 0;
 }
 
+.layout {
+    width: 942px;
+    margin: auto;
+}
+
 .fon_for_menu {
     width: 100%;
     background: #e8e8e8;
@@ -14,7 +19,6 @@ body {
     padding: 0;
     margin: auto;
     background: url("images/bg_menu.png") repeat;
-    width: 942px;
     border-top: solid 1px white;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
@@ -58,8 +62,6 @@ body {
 
 .slide {
     background: url(images/bg.png) repeat;
-    width: 942px;
-    margin: auto;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
     padding-bottom: 20px;
@@ -157,8 +159,6 @@ body {
 }
 
 .content {
-    width: 942px;
-    margin: auto;
     text-align: center;
     padding: 25px 0;
     background: white;
@@ -188,5 +188,4 @@ body {
 .content_text {
      font: bold 15px "Myriad Pro", "Arial", sans-serif;
      color: #b7b7b7;
-     width: 942px;
 }
