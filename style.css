@@ -40,11 +40,11 @@ body {
 }
 
 .menu_block_item.active {
-    background: rgba(157, 193, 210, 0.28);
+    background: rgba(0, 0, 0, 0.15);
 }
 
 .menu_block_item a:hover {
-    background: rgba(0, 0, 0, 0.15);
+    background: rgba(157, 193, 210, 0.28);
 }
 
 .menu_block_item a {
