@@ -56,7 +56,7 @@ a {
 
 .menu_block_item a {
     display: inline-block;
-    padding: 20px 26px;
+    padding: 24px 26px;
     font-size: 14px;
 }
 
@@ -110,7 +110,7 @@ a {
 
 .slide_descr_text {
     color: #394857;
-    font: 13px/24px "Myriad Pro", "Arial", sans-serif;
+    font: 12px/24px "Myriad Pro", "Arial", sans-serif;
     margin: 16px 0;
     /*text-shadow: 0 0 2px #97a6b6;*/
 }
