@@ -1,15 +1,14 @@
 /**
  * Created by lera on 2/12/16.
  */
-/**$(function() {
+$(function() {
     $('#slider').cycle({
-        pagerAnchorBuilder: function(index, DOMelement) {
-            return '<a href="#" class="switch_element"></a>';
-        },
-        activePagerClass: 'active',
+        pagerTemplate: '<a href="#" class="switch_element"></a>',
+        pagerActiveClass: 'active',
         fx: 'shuffle',
         speed: 100,
         timeout: 10000,
-        pager: '#switch'
+        pager: '#switch',
+        slides: '.slide'
     });
 });
