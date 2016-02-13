@@ -1,7 +1,7 @@
 /**
  * Created by lera on 2/12/16.
  */
-$(function() {
+/**$(function() {
     $('#slider').cycle({
         pagerAnchorBuilder: function(index, DOMelement) {
             return '<a href="#" class="switch_element"></a>';
