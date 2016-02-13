@@ -3,9 +3,13 @@
  */
 $(function() {
     $('#slider').cycle({
-        fx:     'shuffle',
-        speed:  'fast',
+        pagerAnchorBuilder: function(index, DOMelement) {
+            return '<a href="#" class="switch_element"></a>';
+        },
+        activePagerClass: 'active',
+        fx: 'shuffle',
+        speed: 100,
         timeout: 10000,
-        pager:  '#switch',
+        pager: '#switch'
     });
 });

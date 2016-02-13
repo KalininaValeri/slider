@@ -1,6 +1,8 @@
 body {
     background:#f5f5f5;
     margin: 0;
+    font-family: "Myriad Pro", "Arial", sans-serif;
+    color: white;
 }
 
 .layout {
@@ -8,7 +10,7 @@ body {
     margin: auto;
 }
 
-.fon_for_menu {
+.top_fon {
     width: 100%;
     background: #e8e8e8;
     padding-top: 96px;
@@ -51,9 +53,7 @@ body {
     display: inline-block;
     padding: 20px 26px;
     text-decoration: none;
-    color: white;
     font-size: 14px;
-    font-family: "Myriad Pro", "Arial", sans-serif;
 }
 
 .slider {
@@ -99,10 +99,9 @@ body {
 }
 
 .slide_descr_title {
-    font: bold 28px "Myriad Pro", "Arial", sans-serif;
-    color: white;
-
-    /*text-shadow: 0 0 2px #97a6b6;*/
+    font-weight: bold;
+    font-size: 28px;
+     /*text-shadow: 0 0 2px #97a6b6;*/
 }
 
 .slide_descr_text {
@@ -116,8 +115,8 @@ body {
     width: 120px;
     padding: 7px 0;
     background: #8c9daf;
-    color: white;
-    font: bold 15px "Myriad Pro", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
     border-radius: 8px;
     border: none;
     border-top: solid 1px #cdd8e3;
@@ -186,6 +185,7 @@ body {
 }*/
 
 .content_text {
-     font: bold 15px "Myriad Pro", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
      color: #b7b7b7;
 }
